@@ -14,19 +14,18 @@ We'll then install the necessary npm modules for our project. Use `npm install` 
 
 ## 3. Set Up Wallets
 
-Before we can interact with a contract, we need a wallet. We'll walk you through setting up an Ethers wallet and connecting it to the Hardhat network.
+Before we can interact with a contract, we need a wallet. We'll walk you through setting up an Hedera wallet and connecting it to the Hardhat network.
 
 ## 4. Write Script
 
 Next, we'll write a script that deploys our contract. This script will import our wallet and contract, connect to the network, and then deploy the contract.
 
-## 5. Run Script
+## 5. Run Test
 
-We'll then run the script using Hardhat's task runner. By running `npx hardhat run <script>`, Hardhat will execute our script and deploy our contract to the network.
+We'll then run the script using Hardhat's task runner. By running `npx hardhat test`, Hardhat will execute our script and deploy our contract to the network.
 
 ## 6. Check Hashscan
 
 Finally, after deployment, we will verify the contract's existence on the network using Hashscan.
 
-Stay tuned to the [Hashgraph Hub YouTube channel](<insert youtube channel link>) for more episodes in our Hedera Smart Contract Basics series. Happy coding!
-# hardhat-hts-sc
+Stay tuned to the [Hashgraph Hub YouTube channel](https://www.youtube.com/@hashgraphhub) for more episodes in our Hedera Smart Contract Basics series. Happy coding!
