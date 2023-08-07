@@ -68,7 +68,6 @@ describe("Nft", function () {
     );
 
     const receipt = await createNft.wait();
-    console.log("NFT Create events", receipt.events);
     const event = receipt.events?.filter(
       (e: any) => e.event === "TokenCreated"
     )[0];
